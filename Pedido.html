@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos Panaderia Santa Lucia</title>
+    <style>
+    body
+    {
+        background-color: rgb(221, 146, 236);
+        font-family: Helvetica;
+    }
+    </style>
+</head>
+<body>
+    <img src="./assets/img/Logo PSL.png" alt="logo Pasteleria" width="140 px">
+    <br>
+
+    <h1><strong>Arma tu pedido</strong></h1>
+    <form action="pedido.js">
+        <label for="Nombre">Nombre de cliente: </label><br>
+        <input type="text" id="Nombre" name="Nombre">
+        <br><br>
+
+        <label for="Teléfono">Teléfono: </label><br>
+        <input type="text" id="Teléfono" name="Teléfono">
+        <br><br>
+
+        <label for="Correo electrónico">Correo electrónico: </label><br>
+        <input type="text" id="Correo electrónico" name="Correo electrónico">
+        <br><br>
+        
+
+        <p>Sabores</p>
+        <input type="checkbox" id="Imposible" name="Imposible" value="Imposible">
+        <label for="Imposible">Imposible</label><br>
+
+        <input type="checkbox" id="CheeseCake" name="CheeseCake" value="CheeseCake">
+        <label for="CheeseCake">CheeseCake</label><br>
+
+        <input type="checkbox" id="3 leches" name="3 leches" value="3 leches">
+        <label for="3 leches">3 leches</label><br><br>
+
+        <input type="checkbox" id="Tradicional" name="Tradicional" value="Tradicional">
+        <label for="Tradicional">Tradicional</label><br><br>
+
+        <p>Adorno</p>
+       
+        <input type="checkbox" id="Fondant" name="Fondant" value="Fondant">
+        <label for="Fondant">Fondant</label><br>
+        
+        <input type="checkbox" id="Chispas de colores" name="Chispas de colores" value="Chispas de colores">
+        <label for="Chispas de colores">Chispas de colores</label><br>
+
+        <input type="checkbox" id="Betún" name="Betún" value="Betún">
+        <label for="Betún">Betún</label><br>
+
+        
+
+        
+        <input type="reset">
+        <input type="submit">
+    </form>
+</body>
+</html>
